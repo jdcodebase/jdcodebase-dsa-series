@@ -1,4 +1,4 @@
-# 🧠 dsa-daily-javascript
+# dsa-daily-javascript
 
 This repository contains my daily solutions to Data Structures and Algorithms problems, primarily from LeetCode. All problems are solved using **JavaScript**, with a focus on clean code and optimal approaches.
 
