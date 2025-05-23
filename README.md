@@ -12,7 +12,7 @@ This repository contains my daily solutions to Data Structures and Algorithms pr
 ## 🎥 Watch on YouTube
 I explain and solve these problems on my YouTube channel **JD Codebase**.
 
-🔗 [Subscribe here](https://www.youtube.com/@JDCodebase)
+🔗 [Subscribe here](https://youtube.com/@jdcodebase-en?si=bU4BHFFDXrALz5JZ)
 
 ## 🤝 Connect With Me
 - 📧 Email: [jd.codebase@gmail.com](mailto:jd.codebase@gmail.com)
