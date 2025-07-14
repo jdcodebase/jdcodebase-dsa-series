@@ -11,8 +11,8 @@
 //   let sMap = new Map();
 //   let tMap = new Map();
 
-//   for (let i = 0; i < s.length; i++) {
-//     sMap.set(s[i], (sMap.get(s[i]) || 0) + 1);
+//   for (let char of s) {
+//     sMap.set(char, (sMap.get(char) || 0) + 1);
 //   }
 
 //   for (let char of t) {
@@ -36,10 +36,7 @@ var isAnagram = function (s, t) {
   }
 
   for (let char of t) {
-    if (!map.has(char)) {
-      return false;
-    }
-
+    if (!map.has(char)) return false;
     map.set(char, map.get(char) - 1);
 
     if (map.get(char) < 0) return false;
