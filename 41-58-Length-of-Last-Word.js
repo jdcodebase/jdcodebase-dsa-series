@@ -1,23 +1,26 @@
+var lengthOfLastWord = function (s) {
+  console.log(s);
+  let words = s.trim().split(" ");
+  return words[words.length - 1].length;
+};
+
 // var lengthOfLastWord = function (s) {
 //   let subStr = "";
 
 //   for (let i = s.length - 1; i >= 0; i--) {
-//     if (s[i] === " " && subStr === "") {
+//     let char = s[i];
+
+//     if (char === " " && subStr === "") {
 //       continue;
-//     } else if (s[i] === " " && subStr.length > 0) {
+//     } else if (char === " " && subStr.length > 0) {
 //       return subStr.length;
 //     } else {
-//       subStr += s[i];
+//       subStr += char;
 //     }
 //   }
 
 //   return subStr.length;
 // };
-
-var lengthOfLastWord = function (s) {
-  let words = s.trim().split(" ");
-  return words[words.length - 1].length;
-};
 
 console.log(lengthOfLastWord("Hello World")); // 5
 console.log(lengthOfLastWord("   fly me   to   the moon  ")); // 4
